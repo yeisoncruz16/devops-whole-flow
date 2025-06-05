@@ -13,10 +13,10 @@ This repository contains Ansible playbooks and roles for managing infrastructure
 Run a playbook for a specific environment:
 
 ```sh
-ansible-playbook -i inventories/<environment>/hosts site.yml
+ansible-playbook -i inventories/<environment>/hosts.aws_ec2.yml site.yml
 ```
 
-Replace `<environment>` with `dev`, `prod`.
+Replace `<environment>` with `dev`, `prod`
 
 ## Requirements
 
